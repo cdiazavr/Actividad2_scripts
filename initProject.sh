@@ -1,35 +1,35 @@
 #!/bin/bash
 
-# Author:			Carlos Diaz
-# Date Created:		November 10, 2022
-# Last Modified:	November 10, 2022
+# Author:            Carlos Diaz
+# Date Created:      November 10, 2022
+# Last Modified:     November 10, 2022
 
 
-							###############
-							# DESCRIPTION #
-							###############
+            ###############
+            # DESCRIPTION #
+            ###############
 # Initializes a project by creating a series of files with the following structure:
 #
-# User_Project_Year_Journal		(main project directory)
-# ┃								┬
-# ┣━━analysis					│
-# ┣━━code						│
-# ┣━━data						│ 	
-# ┃  ┣━━processed				│ EMPTY 	
-# ┃  ┗━━raw						│ DIRECTORIES
-# ┣━━submission					│ 	
-# ┃  ┣━━version1				│ 	
-# ┃  ┗━━version2				│ 	
-# ┣━━tools						│ 	
-# ┃	   						    ┼
-# ┣━━LICENSE					│ EMPTY
-# ┗━━README						│ FILES
-# 								┴
+# User_Project_Year_Journal     (main project directory)
+# ┃                             ┬
+# ┣━━analysis                   │
+# ┣━━code                       │
+# ┣━━data                       │ 	
+# ┃  ┣━━processed               │ EMPTY 	
+# ┃  ┗━━raw                     │ DIRECTORIES
+# ┣━━submission                 │ 	
+# ┃  ┣━━version1                │ 	
+# ┃  ┗━━version2                │ 	
+# ┣━━tools                      │ 	
+# ┃                             ┼
+# ┣━━LICENSE                    │ EMPTY
+# ┗━━README                     │ FILES
+#                               ┴
 
 	
-							#########
-							# USAGE #
-							#########
+            #########
+            # USAGE #
+            #########
 # The user should pass 4 ordered arguments corresponding to the following
 # information of the project:
 #  1) Last name of the user;
@@ -46,9 +46,9 @@
 #
 
 
-						###################
-						# EXECUTABLE CODE #
-						###################
+            ###################
+            # EXECUTABLE CODE #
+            ###################
 # Check if user passed exactly 4 arguments:
 numArgs=$#
 if [[ numArgs -ne 4  ]]
