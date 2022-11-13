@@ -29,7 +29,7 @@ numArgs=$#
 if [[ numArgs -ne 1  ]]
 then
 	# Throw error message to stderr and exit with status 1:
-	echo "ERROR: a single file name required, but $numArgs were passed." >&2
+	echo "ERROR: a single file is required, but $numArgs were passed." >&2
 	exit 1
 fi
 
@@ -39,7 +39,7 @@ len=$(wc -l $1 | cut -d' ' -f1)
 # Validate that the number of sequences is a multiple of 4:
 if [ $(expr $len % 4) -ne 0 ]
 then
-	# Thrown error message to stderr and exit with status 1:
+	# Throw error message to stderr and exit with status 1:
 	echo "ERROR: The number of lines in the file is not multiple of 4. Check file." >&2
 	exit 1
 fi

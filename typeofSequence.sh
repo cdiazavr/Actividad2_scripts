@@ -42,9 +42,11 @@ if [[ $sequence =~ [^ATCGUNatcgun] ]]
 then	# If so, then it must be a sequence of amino acids
 	echo ""
 	echo "       ⌬  It is a sequence of amino acids ⌬"
+	echo ""
 else	# Otherwise, it must be a sequence of nucleotides
 	echo ""
 	echo "       🧬 It is a sequence of nucleotides 🧬"
+	echo ""
 fi
 
 exit 0

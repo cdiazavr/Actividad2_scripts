@@ -38,11 +38,11 @@
 #  4) Journal where the research will be submitted.
 #
 # NOTE:
-# If any of the argumets is passed in quotes and including  black spaces, these
+# If any of the argumets is passed in quotes and includes black spaces, these
 # spaces will be ignored.
 #
 # USAGE SYNTAX:
-#			$./initProject.sh lastName projectName year journal
+#            $./initProject.sh lastName projectName year journal
 #
 
 

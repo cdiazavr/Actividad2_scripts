@@ -46,7 +46,7 @@ do
 	## TODO: deal with upper and lowercases.
 
 	# Count each nucleotide in $RNAseq:
-	## Approeach is: delete whatever nucleotide that it is not the one being
+	## Approach is: delete whatever nucleotide that it is not the one being
 	## counted with sed, and then just count the surviving ones (matchs) with
 	## awk.
 	numA=$(echo $RNAseq | sed 's/[^A]//g' | awk '{print length}')
