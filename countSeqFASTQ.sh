@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# Author:			Carlos Diaz
-# Date Created:		November 12, 2022
-# Last Modified:	November 12, 2022
+# Author:            Carlos Diaz
+# Date Created:      November 12, 2022
+# Last Modified:     November 12, 2022
 
 
-					###############
-					# DESCRIPTION #
-					###############
+            ###############
+            # DESCRIPTION #
+            ###############
 # Takes a FASTQ file and reports the number of reads contained
 #
 	
-					#########
-					# USAGE #
-					#########
+            #########
+            # USAGE #
+            #########
 # The user should pass a single argument, corresponding to the
 # absolute or relative path where the FASTQ file is.
 #
@@ -21,9 +21,9 @@
 #
 
 
-					###################
-					# EXECUTABLE CODE #
-					###################
+            ###################
+            # EXECUTABLE CODE #
+            ###################
 # Check if user passed exactly one argument:
 numArgs=$#
 if [[ numArgs -ne 1  ]]

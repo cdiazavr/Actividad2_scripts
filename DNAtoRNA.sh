@@ -1,36 +1,36 @@
 #!/bin/bash
 
-# Author:			Carlos Diaz
-# Date Created:		November 12, 2022
-# Last Modified:	November 12, 2022
+# Author:            Carlos Diaz
+# Date Created:      November 12, 2022
+# Last Modified:     November 12, 2022
 
 
-					###############
-					# DESCRIPTION #
-					###############
+            ###############
+            # DESCRIPTION #
+            ###############
 # Takes one ore several FASTA file that contain a single DNA sequence and 
 # transforms it into a RNA sequence (simple substitution of T by U)
 #
 	
-					#########
-					# USAGE #
-					#########
+            #########
+            # USAGE #
+            #########
 # The user should pass one or several FASTA files, each one containing one
 # DNA sequence.
 #
 #  EXAMPLE SYNTAX:  $./DNAtoRNA.sh /path/to/my/file.FASTA
 #
 
-					###################
-					# MISC. VARIABLES #
-					###################
+            ###################
+            # MISC. VARIABLES #
+            ###################
 # Colors for formated output:
 color='\033[1;32m'
 noColor='\033[0m'
 
-					###################
-					# EXECUTABLE CODE #
-					###################
+            ###################
+            # EXECUTABLE CODE #
+            ###################
 # Iterate over each file passed as argument:
 for file in "$@"
 do
