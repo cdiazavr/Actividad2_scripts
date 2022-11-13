@@ -44,7 +44,7 @@ then	# If so, then it must be a sequence of amino acids
 	echo "       ⌬  It is a sequence of amino acids ⌬"
 else	# Otherwise, it must be a sequence of nucleotides
 	echo ""
-	echo "        🧬 It is a sequence of nucleotides 🧬"
+	echo "       🧬 It is a sequence of nucleotides 🧬"
 fi
 
 exit 0
